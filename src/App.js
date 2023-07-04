@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="App">
       <Profile name = "Jalez" lastName = "Okush" />
+      <Profile name = "Becky" lastName = "Gichana" />
+      <Profile name = "Walter" lastName = "Onzere" />
+
+
     </div>
   );
 }
