@@ -3,21 +3,18 @@ import Counter from "./Counter"
 import FunctionalCounter from "./FunctionalCounter"
 
 export default function ConditionalComponent(){
-    const [display, setDisplay] = useState(false)
+    const [display, setDisplay] = useState(true)
+    let output; // initialise an element variable
     if (display){
-        return(
-            <div>
-                <h3>This is a Conditional component</h3>
-                <Counter />
-            </div>
-        )
+        output = <h3>This is a Conditional component</h3>
     } else {
-        return(
-            <div>
-                <h3>There is nothing to see here!</h3>
-                <FunctionalCounter />
-            </div>
-        )
-}
+        output = <h3>There is nothing to see here!</h3>
+    }
+
+    return (
+        <div>
+            {output}
+        </div>
+    )
     }
     
