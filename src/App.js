@@ -15,7 +15,7 @@ function App() {
       {/* <Profile name = "Becky" lastName = "Gichana" /> */}
       {/* <Profile name = "Walter" lastName = "Onzere" /> */}
       {/* <Message messageContent="This is a Class message" /> */}
-    {/* <Counter /> */}
+    <Counter />
     {/* <Resume name = "Petro"/> */}
     {/* <FunctionEvent /> */}
     <ClassEvent />
