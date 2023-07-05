@@ -11,6 +11,7 @@ import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Products from './components/Product';
 import Form from './components/Form';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
     {/* <FunctionalCounter /> */}
     {/* <ConditionalComponent /> */}
     {/* <Products /> */}
-    <Form />
+    {/* <Form /> */}
+    <Todo />
 
     </div>
   );
