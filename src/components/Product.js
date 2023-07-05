@@ -7,11 +7,14 @@ export default function Products(){
         {id:3, name:"Modem", price: 50},
         {id:4, name:"Laptop", price: 950},
     ]
-    const productList = products.map((product)=>(<h3 key = {product.id}>{product.name}</h3>)
-)
+
+    const fruits = ["Mango", "Watermelon", "Banana", "Pineapple"]
+    const productList = products.map((product)=>(<h3 key = {product.id}>{product.name}</h3>))
+    const fruitList = fruits.map((fruit, index)=>(<h3 key={index}>{fruit}</h3>))
     return (
         <div>
-            {productList}
+            {productList} -----xxx------
+            {fruitList}
         </div>
     )
 }
