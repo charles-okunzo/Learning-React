@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
+import FunctionalCounter from './components/FunctionalCounter';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       {/* <Profile name = "Becky" lastName = "Gichana" /> */}
       {/* <Profile name = "Walter" lastName = "Onzere" /> */}
       {/* <Message messageContent="This is a Class message" /> */}
-    <Counter />
+    {/* <Counter /> */}
     {/* <Resume name = "Petro"/> */}
     {/* <FunctionEvent /> */}
-    <ClassEvent />
+    {/* <ClassEvent /> */}
+    <FunctionalCounter />
 
     </div>
   );
