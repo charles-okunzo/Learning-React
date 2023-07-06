@@ -13,6 +13,7 @@ import Products from './components/Product';
 import Form from './components/Form';
 import Todo from './components/Todo';
 import InlineComponet from './components/InlineComponent';
+import StylesheetComponent from './components/StylesheetComponent';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
     {/* <Products /> */}
     {/* <Form /> */}
     {/* <Todo /> */}
-    <InlineComponet />
+    {/* <InlineComponet /> */}
+    <StylesheetComponent />
 
     </div>
   );
