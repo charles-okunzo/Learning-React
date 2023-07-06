@@ -14,6 +14,7 @@ import Form from './components/Form';
 import Todo from './components/Todo';
 import InlineComponet from './components/InlineComponent';
 import StylesheetComponent from './components/StylesheetComponent';
+import ModuleComponent from './components/ModuleComponent';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
     {/* <Form /> */}
     {/* <Todo /> */}
     {/* <InlineComponet /> */}
-    <StylesheetComponent />
+    {/* <StylesheetComponent /> */}
+    <ModuleComponent />
 
     </div>
   );
