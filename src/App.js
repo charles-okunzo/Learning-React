@@ -12,6 +12,7 @@ import ConditionalComponent from './components/ConditionalComponent';
 import Products from './components/Product';
 import Form from './components/Form';
 import Todo from './components/Todo';
+import InlineComponet from './components/InlineComponent';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     {/* <ConditionalComponent /> */}
     {/* <Products /> */}
     {/* <Form /> */}
-    <Todo />
+    {/* <Todo /> */}
+    <InlineComponet />
 
     </div>
   );
